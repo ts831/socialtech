@@ -14,17 +14,22 @@ body{
     width: 1440px;
     margin: 10px;
 }
-#nav-pc{
-    margin: 0 auto;
+#main-menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 34px;
+    align-items: center;    
+}
+#toppage>a{
+    text-decoration: none;
+    border: 1px solid black;
 }
 #nav-pc>ul{
     display: flex;
-    font-size:34px;
-    flex-direction: row;
-    justify-content: space-around;
 }
 #nav-pc>ul>li{
     list-style: none;
+    margin: 10px;
 }
 #nav-pc a{
     text-decoration: none;
@@ -60,11 +65,14 @@ body{
     display: block;
     width: 100%;
     text-align: left;
-    padding-left: 190px;
+    padding-left: 150px;
 }
 #myprofile-read>h3{
     font-size: 24px;
     font-weight: bold;
+}
+#myprofile-read li{
+    font-size: 18px;
 }
 #aboutworks-contents{
     display: flex;
@@ -112,12 +120,13 @@ footer{
         width: 100%;
         padding-left:120px;
         list-style: outside;
-        font-size: 1.7rem;
-
     }
     #myprofile-read>h3{
         font-size: 2rem;
         margin-top: 0;
+    }
+    #myprofile-read li{
+        font-size: 1.7rem;
     }
     #aboutworks-contents{
         display: block;
